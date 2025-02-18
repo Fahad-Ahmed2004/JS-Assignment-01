@@ -22,6 +22,10 @@
 
 // alert("Happy Coding! \nPrevent this page from creating additional dialogs.")
 
+// 5. Generate the following message through browser’s developer console:
+
+// console.log("Hello... I can run JS through my web browser's console")
+
 
 // CHAPTER 01 QUESTIONS END:
 
@@ -44,7 +48,10 @@
 // c) Display the message in alert box.
 
 
-// var message = "Hello World"
+// var message;
+
+// message = "Hello World"; 
+
 // alert(message)
 
 
@@ -68,17 +75,17 @@
 
 // Q.6) Declare a variable called email and assign to it a string that represents your Email Address(e.g. example@example.com). Show the blow mentioned message in an alert box.(Hint: use string concatenation)
 
-// var email = " walterwhite@gmail.com"
+// var email = "walterwhite@gmail.com"
 
-// alert("My email address is" + email )
+// alert("My email address is" + " " + email )
 
 
 // Q.7) Declare a variable called book & give it the value “A smarter way to learn JavaScript”. Display the following message in an alert box:
 
 
-// var book = " A smarter \nway to learn JavaScript"
+// var book = "A smarter \nway to learn JavaScript"
 
-// alert("I am trying to learn from the Book" + book )
+// alert("I am trying to learn from the Book"+ " " + book )
 
 
 // Q.8) Write a script to display this in browser through JS.
@@ -101,18 +108,18 @@
 // Q.1) Declare a variable called age & assign to it your age. Show your age in an alert box.
 
 // var age = 20;
-// alert("I am " + age + " years old.")
+// alert("I am" + " " + age + " " +"years old.")
 
 
 // Q.2) Declare & initialize a variable to keep track of how many times a visitor has visited a web page. Show his/her number of visits on your web page. For example: “You have visited this site N times”.
 
 // var visitCount = 23;
-// alert("You have visited this site " + visitCount + " times" )
+// alert("You have visited this site"+ " " + visitCount + " " + "times" )
 
 // Q.3) Declare a variable called birthYear & assign to it your birth year. Show the following message in your browser:
 
 // var birthYear = 2004;
-// document.write("My birth year is " + birthYear + "<br/> Data type of my declered variable is number")
+// document.write("My birth year is" + " " + birthYear + "<br/> Data type of my declared variable is number")
 
 
 // Q.4) A visitor visits an online clothing store www.xyzClothing.com. Write a script to store in variables the following information:
@@ -122,9 +129,9 @@
 // Show the following message in your browser: “John Doe ordered 5 T-shirt(s) on XYZ Clothing store”.
 
 // var customer =  "Walter White" ;
-// var product =  " T-shirt(s)";
+// var product =  "T-shirt(s)";
 // var quantity =  5;
-// document.write("<b>" + customer  + "</b> ordered <b>" + quantity + product + "</b> on XYZ Clothing store")
+// document.write("<b>" + customer  + "</b> ordered <b>" + quantity + " " + product + "</b> on XYZ Clothing store")
 
 
 // CHAPTER 03 QUESTIONS END:
@@ -156,6 +163,26 @@
 // var var;
 // var user*Name;
 
+// Q.3) Display this in your browser
+// a) A heading starting “Rules for naming JS variables”
+// b) Variable names can only contain ______, ______,
+// ______ and ______.
+// For example $my_1stVariable
+// c) Variables must begin with a ______, ______ or
+// _____. For example $name, _name or name
+// d) Variable names are case _________
+// e) Variable names should not be JS _________
+
+// var number = "numbers";
+// var dollar = "$";
+// var selash = "_";
+// var example1 = "$my_1stVariable"
+// var example2 = "$name,_name or name"
+// var letters = "letter"
+// var senSitive = "sensitive"
+// var keyWord = "keywords"
+
+// document.write("<h1>Rules for naming JS variables</h1> <br>" + "<p> Variables names can only contain ,"+ " " + number + "," + " " + dollar + " " + "and" + " " + selash + " " + ". For example :" + " " + example1 + "</p>" + "<p> Variables must begin with a" + " " + letters + "," + " " + dollar + " " + "or" + " " + selash + " " + "." + " "+ "For example :" + " " + example2 + "</p> <p> Variable names are case" + " " + senSitive + "</p> <p> Variable names should not be JS"+ " " + keyWord + "</p>")
 
 // CHAPTER 04 QUESTIONS END:
 
